@@ -7,7 +7,7 @@ pip install -e .
 
 Usage:
 ```
-python concat_src.py path/to/dir1/ path/to/another/dir/ path/to/file.py [--ext .py .html] 
+concatsrc path/to/dir1/ path/to/another/dir/ path/to/file.py [--ext .py .html] 
 ```
 
 Concatenates all `.py` and `html` files in the provided folders and files. If you don't pass the --ext flag, it tajes all extensions. The output is printed to stdout, in the following format:
